@@ -1,0 +1,10 @@
+### POST Request to create a food item
+POST http://localhost:5000/api/food/add
+Content-Type: application/json
+
+{
+  "name": "Samosa",
+  "description": "Crispy spicy snack",
+  "price": 5,
+  "category": "snacks"
+}
